@@ -1,5 +1,5 @@
 # assign_CDS_db_names
-Add organism names to to CDS databanks downloaded from NCBI nucleotide
+Add organism names to CDS databanks downloaded from NCBI nucleotide
 
 Example for how to return all complete genomes of certain organelles resricted to a taxonomic classification, using NCBI nucleotide:
 (Chloroplast [Title] OR Plastid[Title]) AND complete[Title] AND genome[Title] AND refseq[filter] AND Chlorophyta[Organism] 
