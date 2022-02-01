@@ -2,15 +2,18 @@ if __name__ == '__main__':
     #note! script relies on the '>lcl|NC_008097.1_cds_YP....' format of the CDS annotation files downloaded from NCBI nucleotide
     # and on the '>gi|108773196|ref|NC_008097.1| Chara vulgaris chloroplast, complete genome' type format of the summary fasta files downloaded from NCBI nucleotide
     #TLDR; no pre-editing is needed to run this script: it is designed to be used with these 2 files in their raw NCBI nuc form :)
+    
+    #REPLACE filenames in lines 10, 13, and 16 with your filenames
 
     import re
     #with open('TEST_cds.txt', 'r') as cds_raw:
-    with open('raw_w_outgroup_cds.txt', 'r') as cds_raw:
+    with open('YOUR_raw_cds.txt', 'r') as cds_raw:
         cds = cds_raw.read()
     #with open('TEST_names.fasta', 'r') as names_raw:
-    with open('raw_w_outgroup_names.fasta', 'r') as names_raw:
+    with open('YOUR_raw_names.fasta', 'r') as names_raw:
         names = names_raw.read()
-    output_file = open('TEST_cds_nuc_w_names.txt', 'w')
+   # output_file = open('TEST_cds_nuc_w_names.txt', 'w')
+    output_file = open('YOUR_cds_w_names.txt', 'w')
 
 #for each position in cds
     i = 0
