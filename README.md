@@ -7,8 +7,7 @@ Returns all complete chloroplast and plastid genomes belonging to Chlorophyta re
 
 Once your search shows all the genomes that fit your criteria, use Send To>Coding Sequences>FASTA Nucleotide to get the raw CDS databank for all of these genomes (they are all downloaded together as 1 file)
 
-**You may have noticed that, for whatever reason, the annotations on this file do not contain the organism name. Anywhere.
-**
+**You may have noticed that, for whatever reason, the annotations on this file do not contain the organism name. Anywhere.**
 
 If you'd like to remedy this you've come to the right script!
 
