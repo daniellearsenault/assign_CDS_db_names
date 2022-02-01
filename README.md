@@ -1,5 +1,5 @@
 # assign_CDS_db_names
-Add organism names to CDS databanks downloaded from NCBI nucleotide
+Purpose: Add organism names to CDS databanks downloaded from NCBI nucleotide.
 
 **1) Searching for genomes on NCBI Nucleotide:**
 Example for how to return all complete genomes of certain organelles resricted to a taxonomic classification, using NCBI nucleotide:
