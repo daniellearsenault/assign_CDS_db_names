@@ -13,7 +13,7 @@ if __name__ == '__main__':
     with open('YOUR_raw_names.fasta', 'r') as names_raw:
         names = names_raw.read()
    # output_file = open('TEST_cds_nuc_w_names.txt', 'w')
-    output_file = open('YOUR_cds_w_names.txt', 'w')
+    output_file = open('YOUR_cds_nuc_w_names.txt', 'w')
 
 #for each position in cds
     i = 0
