@@ -1,5 +1,7 @@
 # assign_CDS_db_names
-Purpose: Add organism names to CDS databanks downloaded from NCBI nucleotide.
+Purpose: Add organism names to CDS databanks downloaded from NCBI nucleotide.  
+
+(02/01/22) NOTE: AS IT STANDS this code is best suited for relatively small data sets-- for ex. it was originally designed for a ~200 organelle genome data set where each genome was on the order of ~200-300 Kbp in size: this script runs in a few seconds on that data set. I am working on optimizing the code (I haven't done it out yet but I think the code as of 02/01/22 has a real hefty complexity lol.. ) but until then this code is best suited for data sets around the size mentioned above. For reference I am now trying to use this code on a set of ~300 genomes, with the largest genomes being on the order of ~8-11 Mbp, and it is estimated to take ~4 days to run.
 
 **1) Searching for genomes on NCBI Nucleotide:**
 Example for how to return all complete genomes of certain organelles resricted to a taxonomic classification, using NCBI nucleotide:
