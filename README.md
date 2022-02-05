@@ -27,4 +27,4 @@ Set this directory as your working directory.
 call with:
 python assign_CDS_db_names.py
 
-Use your CDS and Complete Record filenames when prompted by the script, and the output will be your CDS databnk with the respective organism names neatly added to the beginning of every entry. In addition, all spaces and commas will be replaced with underscores. --- see <TEST_cds_w_names.txt> for an example of the output format.
+Use your CDS and Complete Record filenames when prompted by the script, and the output will be your CDS databnk with the respective organism names neatly added to the beginning of every entry. In addition, all spaces and commas will be replaced with underscores. --- see <TEST_cds_nuc_w_names.txt> for an example of the output format.
