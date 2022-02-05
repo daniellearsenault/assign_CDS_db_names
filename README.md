@@ -13,7 +13,8 @@ Once your search shows all the genomes that fit your criteria, use Send To>Codin
 <img width="1789" alt="get_raw_cds_file" src="https://user-images.githubusercontent.com/56440050/152056538-e2720075-6d9d-41ec-b8c3-7666adfe2c99.png">
 
 **You may have noticed that, for whatever reason, the annotations on this file do not contain the organism name. Anywhere.**
-<img width="1572" alt="no_names_in_raw_cds" src="https://user-images.githubusercontent.com/56440050/152056819-2df77f67-d5f7-4f96-ad57-a24b403f0c64.png">
+<img width="1572" alt="cds_raw_ex" src="https://user-images.githubusercontent.com/56440050/152655843-01d32b2c-2cac-4c75-b416-ba8830c4c50f.png">
+
 
 If you'd like to remedy this you've come to the right script!
 
