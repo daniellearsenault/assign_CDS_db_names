@@ -28,3 +28,4 @@ call with:
 python assign_CDS_db_names.py
 
 Use your CDS and Complete Record filenames when prompted by the script, and the output will be your CDS databnk with the respective organism names neatly added to the beginning of every entry. In addition, all spaces and commas will be replaced with underscores. --- see <TEST_cds_nuc_w_names.txt> for an example of the output format.
+<img width="1044" alt="output_ex" src="https://user-images.githubusercontent.com/56440050/152655720-6e97a074-0043-4740-896e-a55beb8aca4b.png">
